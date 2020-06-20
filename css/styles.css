@@ -7,3 +7,82 @@
     }
 
 }
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 4vw;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    border-radius: 15px;
+    padding: 0;
+    
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+    
+
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 2.1rem;
+    content: "\02C4";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+    
+    
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\02C5";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+
+  p{
+    background: black;
+    background: #f4f4f4;
+    border-radius: 15px;
+    padding:5px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+    color: white;
+  }
