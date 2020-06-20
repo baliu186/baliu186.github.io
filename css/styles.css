@@ -1,0 +1,9 @@
+@media (min-width: 768px) and (max-width: 833px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-toggler.collapse{
+        display:none !important;
+    }
+
+}
