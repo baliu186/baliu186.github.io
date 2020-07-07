@@ -1,12 +1,4 @@
-@media (min-width: 768px) and (max-width: 833px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-toggler.collapse{
-        display:none !important;
-    }
 
-}
 
 h2 {
     font-family: Arial, Verdana;
@@ -55,12 +47,7 @@ h2 {
     height: 120px;
   }
 
-  p{
-    background: black;
-    background: #f4f4f4;
-    border-radius: 15px;
-    padding:5px;
-  }
+ 
   html {
     scroll-behavior: smooth;
   }
