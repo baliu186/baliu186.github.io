@@ -52,6 +52,11 @@ h2 {
     scroll-behavior: smooth;
   }
 
+  body{
+    background-image:url('https://i.imgur.com/XXcNtYu.png');
+    background-size: cover;
+  }
+
   #myBtn {
     display: none;
     position: fixed;
