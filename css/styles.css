@@ -7,38 +7,7 @@ h2 {
     color: #091f2f;
     text-transform: uppercase;
 }
-.accordion-section .panel-default > .panel-heading {
-    border: 0;
-    background: #f4f4f4;
-    border-radius: 15px;
-    padding: 0;
-    
-}
-.accordion-section .panel-default .panel-title a {
-    display: block;
-    font-style: italic;
-    font-size: 1.5rem;
-    
 
-}
-.accordion-section .panel-default .panel-title a:after {
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-size: 2.1rem;
-    content: "\02C4";
-    color: #1f7de2;
-    float: right;
-    margin-top: -12px;
-    
-    
-}
-.accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\02C5";
-}
-.accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
-    
-}
 
 .center {
     display: flex;
@@ -78,3 +47,96 @@ h2 {
     background-color: #555;
     color: white;
   }
+
+  
+.faq-nav {
+  flex-direction: column;
+  margin: 0 0 32px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  border-top-left-radius:10px;border-top-right-radius:10px;
+  border-bottom-left-radius:10px;border-bottom-right-radius:10px;
+}
+.faq-nav .nav-link {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 13px 16px;
+  background-color: #DCF0F7;;
+  border: 0;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  color: #616161;
+  transition: background-color 0.2s ease;
+  
+}
+.faq-nav .nav-link:hover {
+  background-color: #f6f6f6;
+  
+}
+.faq-nav .nav-link.active {
+  background-color: #f6f6f6;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  
+}
+.faq-nav .nav-link:last-of-type {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom: 0;
+  
+}
+.faq-nav .nav-link i.mdi {
+  margin-right: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+.tab-content {
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+.tab-content .card {
+  border-radius: 0;
+  
+  
+}
+.tab-content .card-header {
+  padding: 15px 16px;
+  border-radius: 0;
+  background-color: #DCF0F7;;
+  
+}
+.tab-content .card-header h5 {
+  margin: 0;
+}
+.tab-content .card-header h5 button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: left;
+  white-space: normal;
+}
+.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+  text-decoration: none;
+}
+.tab-content .card-body p {
+  color: #616161;
+}
+.tab-content .card-body p:last-of-type {
+  margin: 0;
+}
+
+.accordion > .card:not(:first-child) {
+  border-top: 0;
+}
+
+.collapse.show .card-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
