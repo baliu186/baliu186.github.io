@@ -140,3 +140,11 @@ h2 {
 .collapse.show .card-body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
+@font-face { font-family: Malvie; src: url('Malvie.otf'); } 
+@font-face { font-family: Coolvetica; src: url('coolvetica\ rg.ttf'); } 
+p{
+  font-family: Coolvetica;
+}
+h1{
+  font-family: Malvie;
+}
