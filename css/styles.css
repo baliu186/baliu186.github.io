@@ -22,7 +22,8 @@ h2 {
   }
 
   body{
-    background-image:url('https://i.imgur.com/XXcNtYu.png');
+   
+    background-image:url('https://i.imgur.com/xgJdYyP.png');
     background-size: cover;
   }
 
@@ -142,9 +143,11 @@ h2 {
 }
 @font-face { font-family: Malvie; src: url('Malvie.otf'); } 
 @font-face { font-family: Coolvetica; src: url('coolvetica\ rg.ttf'); } 
+@font-face { font-family: Plumpfull; src: url('Plumpfull.ttf'); } 
+@font-face { font-family: Hind; src: url('HindSiliguri-Regular.ttf'); } 
 p{
   font-family: Coolvetica;
 }
 h1{
-  font-family: Malvie;
+  font-family: Plumpfull;
 }
