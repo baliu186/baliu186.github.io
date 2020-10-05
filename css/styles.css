@@ -185,3 +185,7 @@ h1{
     *width: 14.285714285714285714285714285714%;
   }
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
