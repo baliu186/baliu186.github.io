@@ -194,6 +194,7 @@ html, body {
 
 #Ron {
   background-image: url('https://i.imgur.com/hw3idQE.png?1');
+  transition: 0.3s;
   height: 225px;
   width:225px;
 
@@ -203,6 +204,36 @@ html, body {
   background-image: url('https://i.imgur.com/zYLzeUa.png');
   height: 225px;
   width:225px;
+ 
+}
+#Brian {
+  background: url(../images/brian\ \(2\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Brian:hover {
+  
+  background: url(../images/brian-1.jpg);
+  background-size: 225px;
+ 
+}
+#Kyle {
+  background: url(../images/kyle\ \(1\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kyle:hover {
+  
+  background: url(../images/kyle-3.jpg);
+  background-size: 225px;
  
 }
 a:link {color: black;}      /* unvisited link */
