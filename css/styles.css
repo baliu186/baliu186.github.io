@@ -191,3 +191,21 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+#Ron {
+  background-image: url('https://i.imgur.com/hw3idQE.png?1');
+  height: 225px;
+  width:225px;
+
+}
+
+#Ron:hover {
+  background-image: url('https://i.imgur.com/zYLzeUa.png');
+  height: 225px;
+  width:225px;
+ 
+}
+a:link {color: black;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: black;}     /* mouse over link */
+       a:active {color: black;}
