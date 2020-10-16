@@ -240,3 +240,14 @@ a:link {color: black;}      /* unvisited link */
        a:visited {color: black;}   /* visited link */
        a:hover {color: black;}     /* mouse over link */
        a:active {color: black;}
+
+       .float-container {
+        padding: 20px;
+    }
+    
+    .float-child {
+        width: 50%;
+        float: left;
+        padding: 20px;
+        border: 2px solid red;
+    }  
