@@ -73,6 +73,7 @@ h2 {
   border-radius: 0;
   color: #616161;
   transition: background-color 0.2s ease;
+  font-size: 18px;
   
 }
 .faq-nav .nav-link:hover {
@@ -102,6 +103,7 @@ h2 {
   border: 2px solid black;
   border-radius: 10px;
   
+  
 }
 .tab-content .card {
   border-radius: 0;
@@ -126,12 +128,13 @@ h2 {
   color: rgba(0, 0, 0, 0.87);
   text-align: left;
   white-space: normal;
+  font-size: 18px;
 }
 .tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
   text-decoration: none;
 }
 .tab-content .card-body p {
-  color: #616161;
+  color: black;
 }
 .tab-content .card-body p:last-of-type {
   margin: 0;
@@ -251,3 +254,7 @@ a:link {color: black;}      /* unvisited link */
         padding: 20px;
         border: 2px solid red;
     }  
+
+    p{
+      font-size: 18px;
+    }
