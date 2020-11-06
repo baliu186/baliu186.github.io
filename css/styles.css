@@ -435,7 +435,7 @@ html, body {
  
 }
 #Camille {
-  background: url(../images/camille.png);
+  background: url(../images/camille.jpg);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -445,7 +445,7 @@ html, body {
 
 #Camille:hover {
   
-  background: url(../images/camille.jpg);
+  background: url(../images/camille.png);
   background-size: 225px;
  
 }
