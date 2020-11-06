@@ -239,6 +239,216 @@ html, body {
   background-size: 225px;
  
 }
+#Brandon {
+  background: url(../images/brandon\ \(3\)\(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Brandon:hover {
+  
+  background: url(../images/brandon-2.jpg);
+  background-size: 225px;
+ 
+}
+#Chris {
+  background: url(../images/chris\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Chris:hover {
+  
+  background: url(../images/chris-1.jpg);
+  background-size: 225px;
+ 
+}
+#Hanna {
+  background: url(../images/hanna\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Hanna:hover {
+  
+  background: url(../images/hanna-2.jpg);
+  background-size: 225px;
+ 
+}
+#JessicaI {
+  background: url(../images/jessica\ \(4\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#JessicaI:hover {
+  
+  background: url(../images/jessica-1.jpg);
+  background-size: 225px;
+ 
+}
+#Jonash {
+  background: url(../images/jonash\ \(3\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Jonash:hover {
+  
+  background: url(../images/jonash-2.jpg);
+  background-size: 225px;
+ 
+}
+#Kate {
+  background: url(../images/kate\ \(1\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kate:hover {
+  
+  background: url(../images/kate-1.jpg);
+  background-size: 225px;
+ 
+}
+#Kelly {
+  background: url(../images/kelly\ \(3\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kelly:hover {
+  
+  background: url(../images/kelly-2.jpg);
+  background-size: 225px;
+ 
+}
+#Kevin {
+  background: url(../images/kevin\ \(3\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kevin:hover {
+  
+  background: url(../images/kevin-2.jpg);
+  background-size: 225px;
+ 
+}
+#Yvonne {
+  background: url(../images/yvonne\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Yvonne:hover {
+  
+  background: url(../images/yvonne-3.jpg);
+  background-size: 225px;
+ 
+}
+#Zoe {
+  background: url(../images/zoe\ \(2\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Zoe:hover {
+  
+  background: url(../images/zoe-1.jpg);
+  background-size: 225px;
+ 
+}
+#Danielle {
+  background: url(../images/danielle.jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Danielle:hover {
+  
+  background: url(../images/danielle-3.jpg);
+  background-size: 225px;
+ 
+}
+#Marcel {
+  background: url(../images/marcel2.png);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Marcel:hover {
+  
+  background: url(../images/marcel.png);
+  background-size: 225px;
+ 
+}
+#JessicaO {
+  background: url(../images/jessos.jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#JessicaO:hover {
+  
+  background: url(../images/jesso.png);
+  background-size: 225px;
+ 
+}
+#Camille {
+  background: url(../images/camille.png);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Camille:hover {
+  
+  background: url(../images/camille.jpg);
+  background-size: 225px;
+ 
+}
 a:link {color: black;}      /* unvisited link */
        a:visited {color: black;}   /* visited link */
        a:hover {color: black;}     /* mouse over link */
