@@ -1,0 +1,13 @@
+title: DCON 2021
+description: 
+logo: "/images/pasted image 0.png"
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-minimal
+
+permalink: /:slug/
+
+plugins:
+  - jekyll-redirect-from
+
+#repository: hlaueriksson/jekyll-url-shortener
