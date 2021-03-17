@@ -247,6 +247,21 @@
 </script>   
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
+   var button = document.getElementById('Hanna');
+   var count = 0;
+
+   button.addEventListener('click', function(e) {
+       e.preventDefault();
+       count++;
+  
+       if(count == 7){
+        window.location.href = 'https://tinyurl.com/HANNA-WISE';
+       }
+    }, false); 
+});
+</script> 
+<script>
+    document.addEventListener("DOMContentLoaded", function(event) {
    var button = document.getElementById('Kyle');
    var count = 0;
 
