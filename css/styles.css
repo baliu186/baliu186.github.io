@@ -19,7 +19,7 @@ h2 {
  
   html {
     scroll-behavior: smooth;
-    cursor: url(../images/rabbit.png), auto;
+    /*cursor: url(../images/rabbit.png), auto;*/
   }
 
   body{
