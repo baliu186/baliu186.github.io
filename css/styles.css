@@ -19,6 +19,7 @@ h2 {
  
   html {
     scroll-behavior: smooth;
+    cursor: url(../images/rabbit.png), auto;
   }
 
   body{
@@ -28,6 +29,7 @@ h2 {
   /*    background-image: linear-gradient(to bottom right, #8DD1E9, #F2C0C9);*/
       background-repeat: no-repeat;
       background-attachment: fixed;
+      
   }
 
   #myBtn {
@@ -468,3 +470,49 @@ a:link {color: black;}      /* unvisited link */
     p{
       font-size: 18px;
     }
+    #loader {
+      background-color:transparent;
+      width: 70px;
+      height: 70px;
+      animation: spin 1s linear infinite;
+  }
+
+  #loader2 {
+    background-color:transparent;
+    width: 70px;
+    height: 70px;
+
+}
+
+    
+  @keyframes spin {
+
+    0% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+  }
+  50% {
+      transform: scale(2.0);
+      -webkit-transform: scale(1.5);
+  }
+
+  }
+    
+  .center1 {
+    background-color:transparent;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .center2 {
+    background-color:transparent;
+      position: absolute;
+      top: 25%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
