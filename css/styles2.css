@@ -1,0 +1,518 @@
+
+
+h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 4vw;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+  }
+
+ 
+  html {
+    scroll-behavior: smooth;
+    cursor: url(../images/rabbit.png), auto;
+  }
+
+  body{
+      background-color: #724a5b;
+    /*background-image:url('https://i.imgur.com/1BlPjYG.png');*/
+    background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  
+.faq-nav {
+  flex-direction: column;
+  margin: 0 0 32px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  border-top-left-radius:10px;border-top-right-radius:10px;
+  border-bottom-left-radius:10px;border-bottom-right-radius:10px;
+}
+.faq-nav .nav-link {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 13px 16px;
+  background-color: #DCF0F7;;
+  border: 0;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  color: #616161;
+  transition: background-color 0.2s ease;
+  font-size: 18px;
+  
+}
+.faq-nav .nav-link:hover {
+  background-color: #f6f6f6;
+  
+}
+.faq-nav .nav-link.active {
+  background-color: #f6f6f6;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  
+}
+.faq-nav .nav-link:last-of-type {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom: 0;
+  
+}
+.faq-nav .nav-link i.mdi {
+  margin-right: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+.tab-content {
+  box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
+  border: 2px solid black;
+  border-radius: 10px;
+  
+  
+}
+.tab-content .card {
+  border-radius: 0;
+  
+  
+}
+.tab-content .card-header {
+  padding: 15px 16px;
+  border-radius: 0;
+  background-color: #DCF0F7;;
+  
+}
+.tab-content .card-header h5 {
+  margin: 0;
+}
+.tab-content .card-header h5 button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.87);
+  text-align: left;
+  white-space: normal;
+  font-size: 18px;
+}
+.tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
+  text-decoration: none;
+}
+.tab-content .card-body p {
+  color: black;
+}
+.tab-content .card-body p:last-of-type {
+  margin: 0;
+}
+
+.accordion > .card:not(:first-child) {
+  border-top: 0;
+}
+
+.collapse.show .card-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+@font-face { font-family: Malvie; src: url('Malvie.otf'); } 
+@font-face { font-family: Coolvetica; src: url('coolvetica\ rg.ttf'); } 
+@font-face { font-family: Plumpfull; src: url('Plumpfull.ttf'); } 
+@font-face { font-family: Hind; src: url('HindSiliguri-Regular.ttf'); } 
+p{
+  font-family: Coolvetica;
+}
+h1{
+  font-family: Plumpfull;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0,1);
+}
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */    
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#Ron {
+  background-image: url('https://i.imgur.com/hw3idQE.png?1');
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Ron:hover {
+  background-image: url('https://i.imgur.com/zYLzeUa.png');
+  height: 225px;
+  width:225px;
+ 
+}
+#Brian {
+  background: url(../images/brian\ \(2\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Brian:hover {
+  
+  background: url(../images/brian-1.jpg);
+  background-size: 225px;
+ 
+}
+#Kyle {
+  background: url(../images/kyle\ \(1\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kyle:hover {
+  
+  background: url(../images/kyle-3.jpg);
+  background-size: 225px;
+ 
+}
+#Brandon {
+  background: url(../images/brandon\ \(3\)\(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Brandon:hover {
+  
+  background: url(../images/brandon-2.jpg);
+  background-size: 225px;
+ 
+}
+#Chris {
+  background: url(../images/chris\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Chris:hover {
+  
+  background: url(../images/chris-1.jpg);
+  background-size: 225px;
+ 
+}
+#Hanna {
+  background: url(../images/hanna\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Hanna:hover {
+  
+  background: url(../images/hanna-2.jpg);
+  background-size: 225px;
+ 
+}
+#JessicaI {
+  background: url(../images/jessica\ \(4\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#JessicaI:hover {
+  
+  background: url(../images/jessica-1.jpg);
+  background-size: 225px;
+ 
+}
+#Jonash {
+  background: url(../images/jonash\ \(3\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Jonash:hover {
+  
+  background: url(../images/jonash-2.jpg);
+  background-size: 225px;
+ 
+}
+#Kate {
+  background: url(../images/kate\ \(1\).jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kate:hover {
+  
+  background: url(../images/kate-1.jpg);
+  background-size: 225px;
+ 
+}
+#Kelly {
+  background: url(../images/kelly\ \(3\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kelly:hover {
+  
+  background: url(../images/kelly-2.jpg);
+  background-size: 225px;
+ 
+}
+#Kevin {
+  background: url(../images/kevin\ \(3\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Kevin:hover {
+  
+  background: url(../images/kevin-2.jpg);
+  background-size: 225px;
+ 
+}
+#Yvonne {
+  background: url(../images/yvonne\ \(1\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Yvonne:hover {
+  
+  background: url(../images/yvonne-3.jpg);
+  background-size: 225px;
+ 
+}
+#Zoe {
+  background: url(../images/zoe\ \(2\).JPG);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Zoe:hover {
+  
+  background: url(../images/zoe-1.jpg);
+  background-size: 225px;
+ 
+}
+#Danielle {
+  background: url(../images/danielle.jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Danielle:hover {
+  
+  background: url(../images/danielle-3.jpg);
+  background-size: 225px;
+ 
+}
+#Marcel {
+  background: url(../images/marcel2.png);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Marcel:hover {
+  
+  background: url(../images/marcel.png);
+  background-size: 225px;
+ 
+}
+#JessicaO {
+  background: url(../images/jessos.jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#JessicaO:hover {
+  
+  background: url(../images/jesso.png);
+  background-size: 225px;
+ 
+}
+#Camille {
+  background: url(../images/camille.jpg);
+  background-size: 225px;
+  transition: 0.3s;
+  height: 225px;
+  width:225px;
+
+}
+
+#Camille:hover {
+  
+  background: url(../images/camille.png);
+  background-size: 225px;
+ 
+}
+a:link {color: black;}      /* unvisited link */
+       a:visited {color: black;}   /* visited link */
+       a:hover {color: black;}     /* mouse over link */
+       a:active {color: black;}
+
+       .float-container {
+        padding: 20px;
+    }
+    
+    .float-child {
+        width: 50%;
+        float: left;
+        padding: 20px;
+        border: 2px solid red;
+    }  
+
+    p{
+      font-size: 18px;
+    }
+    #loader {
+      background-color:transparent;
+      width: 70px;
+      height: 70px;
+      animation: spin 1s linear infinite;
+  }
+
+  #loader2 {
+    background-color:transparent;
+    width: 70px;
+    height: 70px;
+
+}
+
+    
+  @keyframes spin {
+
+    0% {
+      transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+  }
+  50% {
+      transform: scale(2.0);
+      -webkit-transform: scale(1.5);
+  }
+
+  }
+    
+  .center1 {
+    background-color:transparent;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
+  .center2 {
+    background-color:transparent;
+      position: absolute;
+      top: 25%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+  }
