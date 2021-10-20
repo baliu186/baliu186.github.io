@@ -32,6 +32,19 @@ h2 {
       
   }
 
+  button {
+    margin:10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffefa2;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+
+  }
   #myBtn {
     display: none;
     position: fixed;
@@ -69,7 +82,7 @@ h2 {
   display: block;
   margin: 0;
   padding: 13px 16px;
-  background-color: #DCF0F7;;
+  background-color: #ac8796;
   border: 0;
   border-bottom: 1px solid black;
   border-radius: 0;
@@ -79,11 +92,11 @@ h2 {
   
 }
 .faq-nav .nav-link:hover {
-  background-color: #f6f6f6;
+  background-color: #ac8796;
   
 }
 .faq-nav .nav-link.active {
-  background-color: #f6f6f6;
+  background-color: #ac8796;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.87);
   
@@ -106,20 +119,23 @@ h2 {
   border-radius: 10px;
   
   
+  
 }
 .tab-content .card {
   border-radius: 0;
+  background-color: #ac8796;
   
   
 }
 .tab-content .card-header {
   padding: 15px 16px;
   border-radius: 0;
-  background-color: #DCF0F7;;
+  background-color: #ac8796;
   
 }
 .tab-content .card-header h5 {
   margin: 0;
+  
 }
 .tab-content .card-header h5 button {
   display: block;
@@ -131,12 +147,15 @@ h2 {
   text-align: left;
   white-space: normal;
   font-size: 18px;
+  
 }
 .tab-content .card-header h5 button:hover, .tab-content .card-header h5 button:focus, .tab-content .card-header h5 button:active, .tab-content .card-header h5 button:hover:active {
   text-decoration: none;
+  
 }
 .tab-content .card-body p {
   color: black;
+  
 }
 .tab-content .card-body p:last-of-type {
   margin: 0;
