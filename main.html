@@ -52,7 +52,7 @@
         </div>
 
     </nav>
-
+<!---LOADER -->
     <div id="loader1">
         <div id="loader" class="center1">
             <svg xml:space="preserve" viewBox="0 0 100 100" y="0" x="0" xmlns="http://www.w3.org/2000/svg" id="圖層_1"
@@ -82,6 +82,43 @@
         </div>
 
     </div>
+    <div id="loader3">
+        <div id="loader" class="center1">
+            <center><img src="images/mushrooml.png"></center>
+        </div>
+        <div id="loader2" class="center2">
+            <p style="animation: none;">Loading...</p>
+        </div>
+
+    </div>
+    <div id="loader4">
+        <div id="loader" class="center1">
+            <center><img src="images/keyhole.png" style="width:70px"></center>
+        </div>
+        <div id="loader2" class="center2">
+            <p style="animation: none;">Loading...</p>
+        </div>
+
+    </div>
+    <div id="loader5">
+        <div id="loader" class="center1">
+            <center><img src="images/pocketwatch.png" style="width:70px"></center>
+        </div>
+        <div id="loader2" class="center2">
+            <p style="animation: none;">Loading...</p>
+        </div>
+
+    </div>
+    <div id="loader6">
+        <div id="loader" class="center1">
+            <center><img src="images/bottle.png" style="width:60px"></center>
+        </div>
+        <div id="loader2" class="center2">
+            <p style="animation: none;">Loading...</p>
+        </div>
+
+    </div>
+    <!--- END LOADER -->
     <br>
     <center>
         <img src="images/152064460_887949865292199_5172973505723039039_n.png"
@@ -159,25 +196,108 @@
         crossorigin="anonymous"></script>
 
     <script>
+        function randomIntFromInterval(min, max) { // min and max included 
+            return Math.floor(Math.random() * (max - min + 1) + min)
+        }
+
+        const rndInt = randomIntFromInterval(1, 100)
+    if(rndInt>0 && rndInt <20){
         document.onreadystatechange = function () {
-            document.querySelector(
+                document.querySelector(
                     "body").style.visibility = "hidden";
                 document.querySelector(
                     "#loader1").style.visibility = "visible";
-            setTimeout(function(){ 
+        setTimeout(function(){ 
                 document.querySelector(
-                    "#loader1").style.display = "none";
-
+                    "#loader1").style.visibility = "hidden";
                 document.querySelector(
-                    "body").style.visibility = "visible"; }, 2000);
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "body").style.visibility = "visible"; }, 2000);}
+    } else if (rndInt>19 && rndInt <40){
+        document.onreadystatechange = function () {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "visible";
+        setTimeout(function(){ 
+                document.querySelector(
+                    "#loader1").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden";   
+                document.querySelector(
+                    "body").style.visibility = "visible";}, 2000);}
+    } else if (rndInt>39 && rndInt <60) {
+        document.onreadystatechange = function () {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "visible";
+        setTimeout(function(){ 
+                document.querySelector(
+                    "#loader1").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden";  
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "body").style.visibility = "visible";}, 2000);}
+    } else if (rndInt>59 && rndInt <80){
+        document.onreadystatechange = function () {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader5").style.visibility = "visible";
+        setTimeout(function(){ 
+                document.querySelector(
+                    "#loader1").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "body").style.visibility = "visible";}, 2000);}
+    } else{
+        document.onreadystatechange = function () {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader6").style.visibility = "visible";
+        setTimeout(function(){ 
+                document.querySelector(
+                    "#loader1").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "body").style.visibility = "visible";}, 2000);}
+    }
 
-
-               
-                    
-
-                
-            
-        };
     </script>
 </body>
 
