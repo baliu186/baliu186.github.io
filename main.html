@@ -42,7 +42,7 @@
                     <a class="nav-link" href="forms2.html" style="font-size:1.4rem;color: white;">Forms</a>
                 </li>
                 <li class="nav-item" style="padding-top: 1rem;">
-                    <a class="nav-link" href="contact.html" style="font-size:1.4rem;color: white;">Contact</a>
+                    <a class="nav-link" href="contact2.html" style="font-size:1.4rem;color: white;">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="http://www.cnhcirclek.org/"><img src='images/District Emblem.png'
@@ -112,6 +112,15 @@
     <div id="loader6">
         <div id="loader" class="center1">
             <center><img src="images/bottle.png" style="width:60px"></center>
+        </div>
+        <div id="loader2" class="center2">
+            <p style="animation: none;">Loading...</p>
+        </div>
+
+    </div>
+    <div id="loader7">
+        <div id="loader" class="center1">
+            <center><img src="images/handr.png" style="width:70px"></center>
         </div>
         <div id="loader2" class="center2">
             <p style="animation: none;">Loading...</p>
@@ -200,7 +209,7 @@
             return Math.floor(Math.random() * (max - min + 1) + min)
         }
 
-        const rndInt = randomIntFromInterval(1, 100)
+        const rndInt = randomIntFromInterval(1, 105)
     if(rndInt>0 && rndInt <20){
         document.onreadystatechange = function () {
                 document.querySelector(
@@ -217,7 +226,9 @@
                 document.querySelector(
                     "#loader5").style.visibility = "hidden"; 
                 document.querySelector(
-                    "#loader6").style.visibility = "hidden"; 
+                    "#loader6").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader7").style.visibility = "hidden"; 
                 document.querySelector(
                     "body").style.visibility = "visible"; }, 2000);}
     } else if (rndInt>19 && rndInt <40){
@@ -236,7 +247,9 @@
                 document.querySelector(
                     "#loader5").style.visibility = "hidden";
                 document.querySelector(
-                    "#loader6").style.visibility = "hidden";   
+                    "#loader6").style.visibility = "hidden";  
+                document.querySelector(
+                    "#loader7").style.visibility = "hidden"; 
                 document.querySelector(
                     "body").style.visibility = "visible";}, 2000);}
     } else if (rndInt>39 && rndInt <60) {
@@ -255,7 +268,9 @@
                 document.querySelector(
                     "#loader5").style.visibility = "hidden";  
                 document.querySelector(
-                    "#loader6").style.visibility = "hidden"; 
+                    "#loader6").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader7").style.visibility = "hidden"; 
                 document.querySelector(
                     "body").style.visibility = "visible";}, 2000);}
     } else if (rndInt>59 && rndInt <80){
@@ -276,8 +291,10 @@
                 document.querySelector(
                     "#loader6").style.visibility = "hidden"; 
                 document.querySelector(
+                    "#loader7").style.visibility = "hidden";
+                document.querySelector(
                     "body").style.visibility = "visible";}, 2000);}
-    } else{
+    } else if (rndInt>79 && rndInt <100) {
         document.onreadystatechange = function () {
                 document.querySelector(
                     "body").style.visibility = "hidden";
@@ -294,6 +311,29 @@
                     "#loader5").style.visibility = "hidden"; 
                 document.querySelector(
                     "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader7").style.visibility = "hidden";
+                document.querySelector(
+                    "body").style.visibility = "visible";}, 2000);}
+    } else{
+        document.onreadystatechange = function () {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader7").style.visibility = "visible";
+        setTimeout(function(){ 
+                document.querySelector(
+                    "#loader1").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader3").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader4").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader5").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader6").style.visibility = "hidden"; 
+                document.querySelector(
+                    "#loader7").style.visibility = "hidden";
                 document.querySelector(
                     "body").style.visibility = "visible";}, 2000);}
     }
