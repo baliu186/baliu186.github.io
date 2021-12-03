@@ -216,18 +216,18 @@ html, body {
   overflow-x: hidden;
 }
 
-#Ron {
-  background-image: url('https://i.imgur.com/hw3idQE.png?1');
+#p3 {
+  background-image: url(../images/p3f.png);
+  background-size: 225px;
   transition: 0.3s;
   height: 225px;
   width:225px;
 
 }
 
-#Ron:hover {
-  background-image: url('https://i.imgur.com/zYLzeUa.png');
-  height: 225px;
-  width:225px;
+#p3:hover {
+  background-image: url(../images/p3.png);
+  background-size: 225px;
  
 }
 #Brian {
@@ -245,8 +245,8 @@ html, body {
   background-size: 225px;
  
 }
-#Kyle {
-  background: url(../images/kyle\ \(1\).jpg);
+#p2 {
+  background: url(../images/p2f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -254,14 +254,14 @@ html, body {
 
 }
 
-#Kyle:hover {
+#p2:hover {
   
-  background: url(../images/kyle-3.jpg);
+  background: url(../images/p2.png);
   background-size: 225px;
  
 }
-#Brandon {
-  background: url(../images/brandon\ \(3\)\(1\).JPG);
+#p13 {
+  background: url(../images/p13f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -269,14 +269,14 @@ html, body {
 
 }
 
-#Brandon:hover {
+#p13:hover {
   
-  background: url(../images/brandon-2.jpg);
+  background: url(../images/p13f.png);
   background-size: 225px;
  
 }
-#Chris {
-  background: url(../images/chris\ \(1\).JPG);
+#Kirsten {
+  background: url(../images/kirsten.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -284,14 +284,14 @@ html, body {
 
 }
 
-#Chris:hover {
+#Kirsten:hover {
   
-  background: url(../images/chris-1.jpg);
+  background: url(../images/kirsten.png);
   background-size: 225px;
  
 }
-#Hanna {
-  background: url(../images/hanna\ \(1\).JPG);
+#p5 {
+  background: url(../images/p5f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -299,14 +299,14 @@ html, body {
 
 }
 
-#Hanna:hover {
+#p5:hover {
   
-  background: url(../images/hanna-2.jpg);
+  background: url(../images/p5.png);
   background-size: 225px;
  
 }
-#JessicaI {
-  background: url(../images/jessica\ \(4\).JPG);
+#p6 {
+  background: url(../images/p6f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -314,14 +314,14 @@ html, body {
 
 }
 
-#JessicaI:hover {
+#p6:hover {
   
-  background: url(../images/jessica-1.jpg);
+  background: url(../images/p6f.png);
   background-size: 225px;
  
 }
-#Jonash {
-  background: url(../images/jonash\ \(3\).jpg);
+#p4 {
+  background: url(../images/p4f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -329,14 +329,14 @@ html, body {
 
 }
 
-#Jonash:hover {
+#p4:hover {
   
-  background: url(../images/jonash-2.jpg);
+  background: url(../images/p4.png);
   background-size: 225px;
  
 }
-#Kate {
-  background: url(../images/kate\ \(1\).jpg);
+#p10 {
+  background: url(../images/p10f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -344,9 +344,9 @@ html, body {
 
 }
 
-#Kate:hover {
+#p10:hover {
   
-  background: url(../images/kate-1.jpg);
+  background: url(../images/p10.png);
   background-size: 225px;
  
 }
@@ -365,8 +365,8 @@ html, body {
   background-size: 225px;
  
 }
-#Kevin {
-  background: url(../images/kevin\ \(3\).JPG);
+#Don {
+  background: url(../images/don.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -374,14 +374,14 @@ html, body {
 
 }
 
-#Kevin:hover {
+#Don:hover {
   
-  background: url(../images/kevin-2.jpg);
+  background: url(../images/don.png);
   background-size: 225px;
  
 }
-#Yvonne {
-  background: url(../images/yvonne\ \(1\).JPG);
+#p11 {
+  background: url(../images/p11f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -389,14 +389,14 @@ html, body {
 
 }
 
-#Yvonne:hover {
+#p11:hover {
   
-  background: url(../images/yvonne-3.jpg);
+  background: url(../images/p11f.png);
   background-size: 225px;
  
 }
-#Zoe {
-  background: url(../images/zoe\ \(2\).JPG);
+#p8 {
+  background: url(../images/p8f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -404,14 +404,14 @@ html, body {
 
 }
 
-#Zoe:hover {
+#p8:hover {
   
-  background: url(../images/zoe-1.jpg);
+  background: url(../images/p8.png);
   background-size: 225px;
  
 }
-#Danielle {
-  background: url(../images/danielle.jpg);
+#p9 {
+  background: url(../images/p9f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -419,14 +419,14 @@ html, body {
 
 }
 
-#Danielle:hover {
+#p9:hover {
   
-  background: url(../images/danielle-3.jpg);
+  background: url(../images/p9.png);
   background-size: 225px;
  
 }
-#Marcel {
-  background: url(../images/marcel2.png);
+#p7 {
+  background: url(../images/p7f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -434,14 +434,14 @@ html, body {
 
 }
 
-#Marcel:hover {
+#p7:hover {
   
-  background: url(../images/marcel.png);
+  background: url(../images/p7.png);
   background-size: 225px;
  
 }
-#JessicaO {
-  background: url(../images/jessos.jpg);
+#p12 {
+  background: url(../images/p12f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -449,14 +449,14 @@ html, body {
 
 }
 
-#JessicaO:hover {
+#p12:hover {
   
-  background: url(../images/jesso.png);
+  background: url(../images/p12f.png);
   background-size: 225px;
  
 }
-#Camille {
-  background: url(../images/camille.jpg);
+#p1 {
+  background: url(../images/p1f.png);
   background-size: 225px;
   transition: 0.3s;
   height: 225px;
@@ -464,9 +464,9 @@ html, body {
 
 }
 
-#Camille:hover {
+#p1:hover {
   
-  background: url(../images/camille.png);
+  background: url(../images/p1.png);
   background-size: 225px;
  
 }
